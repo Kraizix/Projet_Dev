@@ -15,7 +15,7 @@ public class MoveBlue : MonoBehaviour
         if ((col.gameObject.tag == "Tile" || col.gameObject.tag == "Portal" || col.gameObject.tag == "Create" )&& _player.index == 0)
             {
                 float dist = (this.transform.position - col.transform.position).magnitude;
-                if (dist <= 0.40f)
+                if (dist <= _player.maxDist)
                 {
                     _player.CollisionCubename = col.gameObject.name;
                     _player.isMoveBallCollNew = true;

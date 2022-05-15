@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public bool isMoveBallCollNew = false;
     public bool game = false;
     public float dist = 0.0f;
+    public float maxDist;
     public List<float> AccList = new List<float>();
     public Transform cam;
     public Text Acc;
@@ -36,6 +37,7 @@ public class Player : MonoBehaviour
     {
         auto = PlayerPrefs.GetInt("auto",0) == 1;
         noFail = PlayerPrefs.GetInt("noFail",0) == 1;
+        maxDist = PlayerPrefs.GetFloat("AccDist",0.40f);
 
     }
     // Update is called once per frame
@@ -60,7 +62,7 @@ public class Player : MonoBehaviour
                     }
             }
             if(auto){
-                if(Math.Abs(((dist-0.40f)/0.40f)*100) >=70f)
+                if(Math.Abs(((dist-maxDist)/maxDist)*100) >=70f)
                 {
                     Move();
                 }
@@ -159,7 +161,7 @@ public class Player : MonoBehaviour
                     StartCoroutine(Transition());
             }
             if(game){
-                float accuracy = Math.Abs(((dist-0.40f)/0.40f)*100);
+                float accuracy = Math.Abs(((dist-maxDist)/maxDist)*100);
                 if(100>=accuracy && accuracy>=75){
                     Acc.text = "Perfect";
                     Acc.color = Color.green;

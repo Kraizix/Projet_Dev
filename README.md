@@ -65,3 +65,5 @@ Le mode automatique joue le niveau automatiquement en essayant d'avoir une préc
 Le mode no fail passe automatiquement à la prochaine case lorsqu'on l'a loupé
 
 On ne peut pas combiner les 2 modes et il faut les activer dans les paramètres dans le menu principal
+
+Le slider "Accuracy" permet de modifier la distance maximale pour valider l'input (plus c'est faible plus c'est dur)

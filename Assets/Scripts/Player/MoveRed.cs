@@ -10,12 +10,12 @@ public class MoveRed : MonoBehaviour
     {
         _player = transform.parent.GetComponent<Player>();
     }
-    
+
     private void OnTriggerStay2D(Collider2D col) {
         if ((col.gameObject.tag == "Tile" || col.gameObject.tag == "Portal"  || col.gameObject.tag == "Create") && _player.index == 1)
             {
                 float dist = (this.transform.position - col.transform.position).magnitude;
-                if (dist <= 0.40f)
+                if (dist <= _player.maxDist)
                 {
                     _player.CollisionCubename = col.gameObject.name;
                     _player.isMoveBallCollNew = true;
