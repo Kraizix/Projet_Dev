@@ -8,23 +8,23 @@ ADOFAI est un jeu ou le joueur déplace deux planètes qui orbitent l'une autour
 
 # Taches :
 
-- [ ] **Jeu de base**: [6]
-  - [ ] Page d'accueil [1]
-  - [ ] Déplacement du joueur [1]
-  - [ ] Niveau(x) [2] + Ecran de fin de niveaux avec précision [1]
-  - [ ] Scores du joueur (DB/fichiers) [1]
-- [ ] **Menu d'options** [2]
-  - [ ] Audio [1]
-  - [ ] Graphismes [1]
-- [ ] **Menu de création de niveau** [5]
+- [x] **Jeu de base**: [6]
+  - [x] Page d'accueil [1]
+  - [x] Déplacement du joueur [1]
+  - [x] Niveau(x) [2] + Ecran de fin de niveaux avec précision [1]
+  - [x] Scores du joueur (DB/fichiers) [1]
+- [x] **Menu d'options** [2]
+  - [x] Audio [1]
+  - [x] Graphismes [1]
+- [x] **Menu de création de niveau** [5]
       (sauvegarde du niveau dans un fichier ? [exemple](<![](https://i.imgur.com/U8V5dXv.gif)>))
-- [ ] **Importation de niveau** [2]
+- [x] **Importation de niveau** [2]
       qui ont été créés par les différents joueurs
 - [ ] **Menu de calibration du son** [2]
       (une musique est jouée et le joueur doit taper dès qu'il entend un certain son pour calculer le décalage du son. [exemple](https://i.imgur.com/G2adO2R.gif))
 - [ ] **Ajout d'options affectant le jeu** [10?]:
-  - [ ] Niveau en automatique[6?]
-  - [ ] No Fail [2]
+  - [x] Niveau en automatique[6?]
+  - [x] No Fail [2]
   - [ ] Niveau de difficultés (période dans laquelle un input est valide) [2]
 
 **Total sans multijoueur : ≈ 27 points**
