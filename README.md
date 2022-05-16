@@ -22,10 +22,10 @@ ADOFAI est un jeu ou le joueur déplace deux planètes qui orbitent l'une autour
       qui ont été créés par les différents joueurs
 - [ ] **Menu de calibration du son** [2]
       (une musique est jouée et le joueur doit taper dès qu'il entend un certain son pour calculer le décalage du son. [exemple](https://i.imgur.com/G2adO2R.gif))
-- [ ] **Ajout d'options affectant le jeu** [10?]:
+- [x] **Ajout d'options affectant le jeu** [10?]:
   - [x] Niveau en automatique[6?]
   - [x] No Fail [2]
-  - [ ] Niveau de difficultés (période dans laquelle un input est valide) [2]
+  - [x] Niveau de difficultés (période dans laquelle un input est valide) [2]
 
 **Total sans multijoueur : ≈ 27 points**
 
