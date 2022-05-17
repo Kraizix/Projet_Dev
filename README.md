@@ -25,11 +25,11 @@ ADOFAI est un jeu ou le joueur déplace deux planètes qui orbitent l'une autour
 - [x] **Ajout d'options affectant le jeu** [10?]:
   - [x] Niveau en automatique[6?]
   - [x] No Fail [2]
-  - [x] Niveau de difficultés (période dans laquelle un input est valide) [2]
+  - [x] Niveaux de difficulté (période dans laquelle un input est valide) [2]
 
 **Total sans multijoueur : ≈ 27 points**
 
-- [ ] **Mode multijoueur?** [10] : les différents joueurs se connectent dans un lobby et un joueur choisit le niveau sur lequel ils vont s'affronter, le niveau se lance chez chaque joueur et quand tout les joueurs ont fini ils arrivent sur un écran de fin avec un récapitulatif du score/précision de chaque joueur.
+- [ ] **Mode multijoueur?** [10] : les différents joueurs se connectent dans un lobby et un joueur choisit le niveau sur lequel ils vont s'affronter, le niveau se lance chez chaque joueur. Quand tous les joueurs ont fini ils arrivent sur un écran de fin avec un récapitulatif du score/précision de chaque joueur.
 
 **Total avec multijoueur : ≈ 37 points**
 
