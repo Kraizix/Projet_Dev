@@ -6,7 +6,7 @@ Recréer le jeu ADOFAI ([A Dance Of Fire And Ice](https://store.steampowered.com
 
 ADOFAI est un jeu ou le joueur déplace deux planètes qui orbitent l'une autour de l'autre successivement lorsque que le joueur appuie sur une touche en étant en rythme avec la musique. A chaque input le joueur est attribué une note (allant de "Raté" à "Parfait", une note "Raté" mets fin à la partie en cours et le joueur doit donc recommencer le niveau depuis le début) pour savoir s'il a appuyé au bon moment, à la fin de chaque niveau le joueur obtient un score de précision en fonction des notes précédentes.
 
-# Taches :
+# Tâches :
 
 - [x] **Jeu de base**: [6]
   - [x] Page d'accueil [1]
